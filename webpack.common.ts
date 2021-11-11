@@ -1,7 +1,8 @@
-const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
+import * as path from "path";
+import { Configuration } from "webpack";
+import HtmlWebpackPlugin from "html-webpack-plugin";
 
-module.exports = {
+const config: Configuration = {
   entry: path.resolve(__dirname, "./src/index.tsx"),
   resolve: {
     extensions: [".tsx", ".ts", ".js"],
@@ -29,4 +30,6 @@ module.exports = {
     }),
   ],
   stats: "errors-only",
-};
+}
+
+export default config;

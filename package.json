@@ -2,10 +2,9 @@
   "name": "react-typescript-webpack-boilerplate",
   "version": "1.0.0",
   "description": "A simple React template using TypeScript and Webpack ready for development",
-  "main": "index.js",
   "scripts": {
-    "start": "webpack serve --config webpack.config.js --env env=dev --open",
-    "build": "webpack --config webpack.config.js --env env=prod"
+    "start": "webpack serve --config webpack.dev.ts --open",
+    "build": "webpack --config webpack.prod.ts"
   },
   "repository": {
     "type": "git",
@@ -27,10 +26,14 @@
     "@babel/preset-env": "^7.16.0",
     "@babel/preset-react": "^7.16.0",
     "@babel/preset-typescript": "^7.16.0",
+    "@types/node": "^16.11.6",
     "@types/react": "^17.0.34",
     "@types/react-dom": "^17.0.11",
+    "@types/webpack": "^5.28.0",
+    "@types/webpack-dev-server": "^4.3.1",
     "babel-loader": "^8.2.3",
     "html-webpack-plugin": "^5.5.0",
+    "ts-node": "^10.4.0",
     "typescript": "^4.4.4",
     "webpack": "^5.62.1",
     "webpack-cli": "^4.9.1",
