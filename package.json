@@ -11,7 +11,12 @@
     "type": "git",
     "url": "git+https://github.com/juniormfreitas/react-typescript-webpack-boilerplate.git"
   },
-  "keywords": [],
+  "keywords": [
+    "template",
+    "typescript",
+    "react",
+    "webpack"
+  ],
   "author": "Jose de Freitas",
   "license": "MIT",
   "bugs": {

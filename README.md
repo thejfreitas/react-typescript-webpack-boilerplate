@@ -21,3 +21,7 @@ The page will reload automatically when you modify a file.
 ### `yarn build` or `npm run build`
 
 Builds the app for production to the `build` folder.\
+
+### `yarn prettify` or `npm run prettify`
+
+Format all file in `src` folder by using [Prettier](https://prettier.io/)
