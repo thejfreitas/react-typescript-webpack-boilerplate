@@ -4,7 +4,8 @@
   "description": "A simple React template using TypeScript and Webpack ready for development",
   "scripts": {
     "start": "webpack serve --config webpack.dev.ts --open",
-    "build": "webpack --config webpack.prod.ts"
+    "build": "webpack --config webpack.prod.ts",
+    "prettify": "prettier --write src/**/*.{ts,tsx}"
   },
   "repository": {
     "type": "git",
@@ -33,6 +34,7 @@
     "@types/webpack-dev-server": "^4.3.1",
     "babel-loader": "^8.2.3",
     "html-webpack-plugin": "^5.5.0",
+    "prettier": "2.4.1",
     "ts-node": "^10.4.0",
     "typescript": "^4.4.4",
     "webpack": "^5.62.1",
