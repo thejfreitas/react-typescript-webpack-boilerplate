@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/juniormfreitas/react-typescript-webpack-boilerplate.git"
+    "url": "git+https://github.com/thejfreitas/react-typescript-webpack-boilerplate.git"
   },
   "keywords": [
     "template",
@@ -20,9 +20,9 @@
   "author": "Jose de Freitas",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/juniormfreitas/react-typescript-webpack-boilerplate/issues"
+    "url": "https://github.com/thejfreitas/react-typescript-webpack-boilerplate/issues"
   },
-  "homepage": "https://github.com/juniormfreitas/react-typescript-webpack-boilerplate#readme",
+  "homepage": "https://github.com/thejfreitas/react-typescript-webpack-boilerplate#readme",
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
