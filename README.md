@@ -2,6 +2,8 @@
 
 A simple React template using TypeScript and Webpack ready for development.
 
+Currently using `React 18.0` and `Typescript 4.6.3`
+
 ## Install
 
 Clone or download this repository and run `yarn` or `npm install` to install all
