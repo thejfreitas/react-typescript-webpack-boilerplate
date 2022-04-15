@@ -5,7 +5,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <div>Ready to start...ag</div>
+      <>Happy Coding!</>
       <Footer />
     </>
   );
