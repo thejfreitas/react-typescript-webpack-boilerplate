@@ -2,9 +2,11 @@
 
 A simple React template using TypeScript and Webpack ready for development.
 
-Currently using `React 18.0` and `Typescript 4.6.3`
+Currently using `React 18.0`, `Webpack 5` and `Typescript 4`
 
 ## Install
+
+For this repository, you can use the [`yarn`](https://yarnpkg.com/) or [`npm`](https://www.npmjs.com/) package manager.
 
 Clone or download this repository and run `yarn` or `npm install` to install all
 dependencies listed on `package.json` file.
@@ -26,4 +28,4 @@ Builds the app for production to the `build` folder.\
 
 ### `yarn prettify` or `npm run prettify`
 
-Format all file in `src` folder by using [Prettier](https://prettier.io/)
+Format all files in `src` folder by using [Prettier](https://prettier.io/)
