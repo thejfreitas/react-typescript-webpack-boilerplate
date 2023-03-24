@@ -2,7 +2,7 @@
 
 A simple React template using TypeScript and Webpack ready for development.
 
-Currently using `React 18.0`, `Webpack 5` and `Typescript 4`
+Currently using `React 18.0`, `Webpack 5` and `Typescript 5`
 
 ## Install
 
